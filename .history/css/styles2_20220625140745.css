@@ -1,0 +1,12 @@
+.item {
+  width: 150px;
+  height: 150px;
+  border: 1px solid gray;
+}
+
+.wrapper {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}

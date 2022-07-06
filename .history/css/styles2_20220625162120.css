@@ -1,0 +1,33 @@
+.item {
+  
+  border: 1px solid gray;
+}
+
+.allstyles{
+    margin: 50px 100px;
+}
+
+header {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+  grid-column: 1;
+}
+
+.menu {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.main {
+  grid-colum: 2/3;
+}

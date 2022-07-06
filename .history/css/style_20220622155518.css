@@ -1,0 +1,23 @@
+.allstyles {
+  margin: 0 80px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.logo{
+    grid-columns:1/2;
+}
+.email{
+    grid-template-columns: ;
+}
+
+.wrapper nav ul {
+  display: inline-flex;
+}
+
+.wrapper .email div {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+.allstyles {
+  margin: 0 80px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.logo {
+  grid-column: 1/2;
+}
+.email {
+  grid-column: 3/7;
+}
+
+.wrapper nav ul {
+  display: inline-flex;
+}
+
+.wrapper .email,
+.phone div {
+  display: flex;
+  align-items: center;
+}
+
+.btn button {
+  padding: 15px 30px;
+  color: #fff;
+  background: linear-gradient(89.77deg, #ff7a00 0.2%, #ffb039 99.82%);
+  box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+  border-radius: 25px;
+  border: none;
+}
